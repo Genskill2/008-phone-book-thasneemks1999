@@ -19,8 +19,8 @@ void list(FILE *);
 int delete(FILE *, char *);
 
 /* Utility functions  */
-FILE * open_db_file(); /* Opens the database file. Prints error and
-                          quits if it's not available */
+FILE * open_db_file(); 
+
 void print_usage(char *, char *);  /* Prints usage */
 entry *load_entries(FILE *);         /* Load all entries from the
                                       database file. Returns pointer
